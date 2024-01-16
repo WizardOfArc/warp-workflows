@@ -1,0 +1,11 @@
+---
+name: What Change Did Commit Do
+command: git diff {{commit_hash}} {{commit_hash}}^
+tags:
+ - git
+ - diff
+description: "descrption string"
+arguments:
+ - name: commit_hash
+   description: "commit hash"
+   default_value: HEAD

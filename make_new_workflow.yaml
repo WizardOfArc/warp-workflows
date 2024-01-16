@@ -1,0 +1,10 @@
+---
+name: Make new workflow
+command: cd ~/.warp/workflows; cp workflow_template.txt {{workflow_name}}.yaml; nvim {{workflow_name}}.yaml
+tags:
+  - warp
+  - metatools
+description: "Helps make a new workflow yaml (copies template and opens it in NVIM)"
+arguments:
+  - name: workflow_name
+    description: "name of workflow in snake_case"

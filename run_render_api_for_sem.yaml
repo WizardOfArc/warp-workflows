@@ -1,0 +1,9 @@
+---
+name: Run Render API for SEM (dev)
+command: fe; npm run clean; npm run dev:sem
+tags:
+ - RenderAPI
+ - running application
+ - SEM
+description: "Runs RenderAPI for SEM for development"
+

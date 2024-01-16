@@ -1,0 +1,9 @@
+---
+name: Run RenderAPI for Startpage (dev)
+command: fe; npm run clean; npm run dev:startpage
+tags:
+  - running application
+  - RenderAPI
+  - startpage
+description: "Runs RenderAPI for startpage for development"
+

@@ -1,0 +1,8 @@
+---
+name: Nimbus
+command: cd ~/git/Nimbus; git pull
+tags:
+ - frontend
+ - adutil
+ - nimbus
+description: "navigate to nimbus"

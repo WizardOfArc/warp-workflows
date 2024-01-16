@@ -1,0 +1,12 @@
+---
+name: Make New Git Branch
+command: git checkout -b azi_{{ticket}}_{{description}}
+tags:
+ - System1
+ - git
+description: "Creates new branch using standard naming pattern"
+arguments:
+ - name: ticket
+   description: "ticket number, like pship-666"
+ - name: description
+   description: "short description in snake case"

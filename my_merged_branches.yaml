@@ -1,0 +1,9 @@
+---
+name: My Merged Branches (BE)
+command: search; git checkout main; git pull; git log --oneline | grep \Merged | grep azi | grep into\ main | awk '{print $3}' | less
+tags:
+ - git
+ - pysearch
+ - "clean-up tasks" 
+description: "Display my branches that are merged into main to help with branch clean-up (BE repo)"
+

@@ -1,0 +1,8 @@
+---
+name: Run Serp Tester Interactive
+command: toolbox; ./serp_tester.py
+tags:
+ - Testing Serps
+ - Common Pship Tasks
+description: "Runs Serp Tester"
+

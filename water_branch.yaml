@@ -1,0 +1,12 @@
+---
+name: Water Branch
+command: git checkout main; git pull; git checkout {{branch}}; git merge main
+tags:
+ - tag1
+ - tag2
+ - tag3
+description: "Updates branch with fresh main"
+arguments:
+ - name: branch
+   description: "branch to water"
+   default_value: main

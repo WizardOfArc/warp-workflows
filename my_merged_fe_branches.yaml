@@ -1,0 +1,9 @@
+---
+name: My Merged Branches (FE)
+command: fe; git checkout main; git pull; git log --oneline | grep \Merge\ pull\ request | grep azi | awk -F "/" '{print $2}' | less
+tags:
+ - git
+ - renderAPI
+ - "clean-up tasks" 
+description: "Display my branches that are merged into main to help with branch clean-up (FE repo)"
+

@@ -1,0 +1,11 @@
+---
+name: Validate Configs for Domain
+command: search; python tools/search_configs.py validate {{domain}}
+tags:
+ - pysearch
+ - common tasks
+ - validation
+description: "Runs config validator for a gven domain"
+arguments:
+ - name: domain
+   description: "full domain to run validate on"

@@ -1,0 +1,10 @@
+---
+name: Run Search for Site
+command: search; SITE={{site}} make run
+tags:
+  - repetative tasks
+  - pysearch
+description: "Runs search for a given site"
+arguments:
+  - name: site
+    description: The sitename or middle of the domain i.e. dogpile for info.dogpile.com

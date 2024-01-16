@@ -1,0 +1,9 @@
+---
+name: Run Search for Startpage
+command: search; make run_startpage
+tags:
+ - startpage
+ - renderAPI
+ - pysearch
+description: "Run Search code for startpage"
+

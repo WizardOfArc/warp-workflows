@@ -1,0 +1,10 @@
+---
+name: Make team update
+command: cp ~/SearchSitesTeamUpdates/template_update.txt ~/SearchSitesTeamUpdates/{{date}}_update.txt; nvim ~/SearchSitesTeamUpdates/{{date}}_update.txt
+tags: 
+  - team management
+  - repetative tasks
+description: "Copies template update file into one for the date given, to help report team updates"
+arguments:
+  - name: date
+    description: the date of the report in yyyymmdd format

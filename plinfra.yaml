@@ -1,0 +1,7 @@
+---
+name: PlatformInfraRepo
+command: cd ~/git/platform-infra; git checkout main; git pull
+tags:
+ - helpful tool
+ - platform-infra
+description: "gets you to platform infra and gives you a fresh main"

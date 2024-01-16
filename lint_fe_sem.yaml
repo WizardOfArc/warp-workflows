@@ -1,0 +1,9 @@
+---
+name: Lint FE Sem
+command: fe; nx run ui-sem:lint
+tags:
+ - renderAPI
+ - Lint
+ - Sem
+description: "runs linter for Sem on FE/renderAPI"
+
